@@ -218,15 +218,15 @@ private:
         createImageViews();
         createRenderPass();
         createComputeDescriptorSetLayout();
-        createGraphicsDescriptorSetLayout(); // Add this
+        createGraphicsDescriptorSetLayout();
         createGraphicsPipeline();
         createComputePipeline();
         createFramebuffers();
         createCommandPool();
         createVertexBuffer();
         createIndexBuffer();
-        createStorageImage(); // Add this
-        createSampler();      // Add this
+        createStorageImage();
+        createSampler();
         createDescriptorPool();
         createComputeDescriptorSets();
         createGraphicsDescriptorSets(); // Add this
